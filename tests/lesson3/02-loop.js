@@ -2,8 +2,9 @@
 let a = 0;
 for (i=1 ; i<=100 ; i++) {
     a += i;
-    console.log(a);
 }
+console.log(a);
+
 
 //Cau2
 for (i = 1 ; i <=9 ; i++) {
@@ -18,12 +19,13 @@ for (i = 1 ; i <= 99 ; i++){
     if (i % 2 == 1){
     arr.push(i);
 }
-console.log(arr);
 }
+console.log(arr);
+
 
 //Cau4
 for (i = 1 ; i <=10 ; i++){
-    console.log(`user${i}example.com`);
+    console.log(`user${i}@example.com`);
 }
 
 //Cau5
