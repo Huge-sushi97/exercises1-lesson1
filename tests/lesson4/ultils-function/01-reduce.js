@@ -6,3 +6,4 @@ let a = scores.reduce((sum,num) => sum + num, 0);
 let b = ages.reduce((sum,num) => sum + num, 0);
 let c = expenses.reduce((sum,num) => sum + num, 0);
 console.log(a,b,c);
+
