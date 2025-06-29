@@ -49,7 +49,7 @@ syntax:
 array.forEach((value, index) => {
     //logic code
 })
-- for ... of : hay dùng cho array để gọi trực tiếp items ra, và KHÔNG lấy chỉ số index như forEach for...in
+- for ... of : chi dùng cho array để gọi trực tiếp items ra duyệt giá trị, và KHÔNG lấy chỉ số index như forEach for...in
 
 5. Phân biệt giữa break và continue:
 - break: thoat hẳn ra khỏi vòng lặp không chạy thêm gì cả
@@ -82,4 +82,5 @@ let newNumber = number.filter(num => num % 2 === 0);
 * push : thêm phần tử vào mảng
 * shift : loại bõ phần tử đầu tiên của mảng -> return giá trị bị loại bõ
 * sort : sắp xếp các phần tử trong mảng default theo thứ tự từ điển
-* 
+
+
